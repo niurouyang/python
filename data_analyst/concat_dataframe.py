@@ -16,7 +16,7 @@ salary_df1 = pd.DataFrame(
 )
 salary_df1.index=['June','July','August']
 salary_df1 = salary_df1.T
-# T is a shorthand for the dataframe.transpose() method, it will change the index to employee's name
+# T is a shorthand for the dataframe.transpose() method, it will swap the dataframe column and row's postion
 
 salary_df2 =  pd.DataFrame(
     {'maya': maya_salary,
